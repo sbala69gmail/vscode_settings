@@ -1,6 +1,8 @@
-# VS CODE setting.
+# VS CODE.
 
-Hi Friends I have posted my VS code setting for usage simplecity.  
+Hi Friends I have posted my VS code setting and plugins.  
+
+## Setting list
 
 ```
 {
@@ -36,7 +38,7 @@ Hi Friends I have posted my VS code setting for usage simplecity.
 
 ```
 
-## installed plugins
+## Installed plugins
 
 code --list-extensions | xargs -L 1 echo code --install-extension
 
