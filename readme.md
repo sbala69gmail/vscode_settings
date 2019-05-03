@@ -35,3 +35,26 @@ Hi Friends I have posted my VS code setting for usage simplecity.
 }
 
 ```
+
+## installed plugins
+
+code --list-extensions | xargs -L 1 echo code --install-extension
+
+```
+code --install-extension alefragnani.project-manager
+code --install-extension christian-kohler.path-intellisense
+code --install-extension eamodio.gitlens
+code --install-extension eridem.vscode-postman
+code --install-extension esbenp.prettier-vscode
+code --install-extension felixfbecker.php-intellisense
+code --install-extension Gruntfuggly.todo-tree
+code --install-extension Jarga.apib
+code --install-extension MehediDracula.php-namespace-resolver
+code --install-extension msjsdiag.debugger-for-chrome
+code --install-extension PeterJausovec.vscode-docker
+code --install-extension Shan.code-settings-sync
+code --install-extension streetsidesoftware.code-spell-checker
+code --install-extension vncz.vscode-apielements
+code --install-extension vscode-icons-team.vscode-icons
+code --install-extension Zignd.html-css-class-completion
+```
