@@ -6,12 +6,12 @@ Hi Friends I have posted my VS code setting and plugins.
 
 ```
 {
-  //for git setup
-  "git.path": "E:\\laragon\\bin\\git\\mingw64\\bin\\git.exe",
-  //for php setup
+  "workbench.iconTheme": "vscode-icons",
+  "yaml.schemas": {
+    "file:///c%3A/Users/balasubramani.s/.vscode/extensions/atlassian.atlascode-2.8.4/resources/schemas/pipelines-schema.json": "bitbucket-pipelines.yml"
+  }, //for php setup
   "php.validate.enable": true,
-  "php.executablePath": "E:\\laragon\\bin\\php\\php-7.2.11-Win32-VC15-x64\\php.exe",
-  //common setup
+  "php.executablePath": "E:\\laragon\\bin\\php\\php-7.3.22-Win32-VC15-x64\\php.exe", //common setup
   "editor.wordWrap": "on",
   "explorer.openEditors.visible": 0,
   "editor.minimap.enabled": false,
@@ -19,13 +19,31 @@ Hi Friends I have posted my VS code setting and plugins.
   "window.zoomLevel": 1,
   "files.autoSave": "afterDelay",
   "files.autoSaveDelay": 5000,
-  "editor.formatOnSave": true,
-  "editor.formatOnPaste": true,
-  //icons for files
-  "vsicons.projectDetection.disableDetect": true,
-  //spell check exclude words
-  "cSpell.userWords": ["Repo", "constrct", "deactive", "unsignned"],
-  //terminal setup
+  "editor.formatOnSave": false,
+  "editor.formatOnPaste": false, //spell check exclude words
+  "cSpell.userWords": [
+    "Barryvdh",
+    "Repo",
+    "Spatie",
+    "allfiles",
+    "alphanum",
+    "constrct",
+    "deactive",
+    "ernysans",
+    "formly",
+    "gridster",
+    "incharge",
+    "kubernetes",
+    "laravel",
+    "namespacing",
+    "nuxt",
+    "nuxtjs",
+    "stylelint",
+    "subfolder",
+    "subfolders",
+    "unsignned",
+    "vform"
+  ], //terminal setup
   "terminal.external.windowsExec": "E:\\laragon\\bin\\cmder\\Cmder.exe",
   "terminal.integrated.shell.windows": "C:\\WINDOWS\\System32\\cmd.exe",
   "terminal.integrated.shellArgs.windows": [
@@ -33,7 +51,54 @@ Hi Friends I have posted my VS code setting and plugins.
   ],
   "terminal.integrated.env.windows": {
     "CMDER_ROOT": "E:\\laragon\\bin\\cmder\\"
-  }
+  },
+  "breadcrumbs.enabled": false,
+  "diffEditor.ignoreTrimWhitespace": false,
+  "[typescript]": {
+    "editor.defaultFormatter": "vscode.typescript-language-features"
+  },
+  "[json]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode"
+  },
+  "[html]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode"
+  },
+  "[dart]": {
+    "editor.formatOnSave": true,
+    "editor.formatOnType": true,
+    "editor.rulers": [
+      80
+    ],
+    "editor.selectionHighlight": false,
+    "editor.suggest.snippetsPreventQuickSuggestions": false,
+    "editor.suggestSelection": "first",
+    "editor.tabCompletion": "onlySnippets",
+    "editor.wordBasedSuggestions": false
+  },
+  "[yaml]": {
+    "editor.defaultFormatter": "redhat.vscode-yaml"
+  },
+  "liveServer.settings.donotShowInfoMsg": true,
+  "[vue]": {
+    "editor.defaultFormatter": "octref.vetur"
+  },
+  "[javascript]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode"
+  },
+  "[jsonc]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode"
+  },
+  "editor.codeActionsOnSave": {
+    "source.fixAll": true
+  },
+  "javascript.format.insertSpaceBeforeFunctionParenthesis": true,
+  "javascript.format.placeOpenBraceOnNewLineForControlBlocks": false,
+  "javascript.format.placeOpenBraceOnNewLineForFunctions": false,
+  "typescript.format.insertSpaceBeforeFunctionParenthesis": true,
+  "typescript.format.placeOpenBraceOnNewLineForControlBlocks": false,
+  "typescript.format.placeOpenBraceOnNewLineForFunctions": false,
+  "vetur.format.defaultFormatter.html": "js-beautify-html",
+  "vetur.format.defaultFormatter.js": "vscode-typescript"
 }
 
 ```
