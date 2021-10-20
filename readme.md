@@ -9,20 +9,28 @@ Hi Friends I have posted my VS code setting and plugins.
   "workbench.iconTheme": "vscode-icons",
   "yaml.schemas": {
     "file:///c%3A/Users/balasubramani.s/.vscode/extensions/atlassian.atlascode-2.8.4/resources/schemas/pipelines-schema.json": "bitbucket-pipelines.yml"
-  }, //for php setup
+  },
+  //icons for files
+  "vsicons.projectDetection.disableDetect": true,
+  //for git setup
+  "git.path": "C:\\laragon\\bin\\git\\mingw64\\bin\\git.exe", 
+  //for php setup
   "php.validate.enable": true,
-  "php.executablePath": "E:\\laragon\\bin\\php\\php-7.3.22-Win32-VC15-x64\\php.exe", //common setup
+  "php.executablePath": "C:\\laragon\\bin\\php\\php-7.2.19-Win32-VC15-x64\\php.exe", 
+  "php.validate.executablePath": "C:\\laragon\\bin\\php\\php-7.2.19-Win32-VC15-x64\\php.exe", 
+  //common setup
   "editor.wordWrap": "on",
   "explorer.openEditors.visible": 0,
   "editor.minimap.enabled": false,
   "[apib]": {},
-  "window.zoomLevel": 1,
   "files.autoSave": "afterDelay",
   "files.autoSaveDelay": 5000,
   "editor.formatOnSave": false,
-  "editor.formatOnPaste": false, //spell check exclude words
+  "editor.formatOnPaste": false, 
+  //spell check exclude words
   "cSpell.userWords": [
     "Barryvdh",
+    "Lumpsum",
     "Repo",
     "Spatie",
     "allfiles",
@@ -41,16 +49,13 @@ Hi Friends I have posted my VS code setting and plugins.
     "stylelint",
     "subfolder",
     "subfolders",
+    "toastr",
     "unsignned",
     "vform"
-  ], //terminal setup
-  "terminal.external.windowsExec": "E:\\laragon\\bin\\cmder\\Cmder.exe",
-  "terminal.integrated.shell.windows": "C:\\WINDOWS\\System32\\cmd.exe",
-  "terminal.integrated.shellArgs.windows": [
-    "/K E:\\laragon\\bin\\cmder\\vendor\\init.bat"
-  ],
+  ], 
+  //terminal setup
   "terminal.integrated.env.windows": {
-    "CMDER_ROOT": "E:\\laragon\\bin\\cmder\\"
+    "CMDER_ROOT": "C:\\laragon\\bin\\cmder\\"
   },
   "breadcrumbs.enabled": false,
   "diffEditor.ignoreTrimWhitespace": false,
@@ -97,8 +102,31 @@ Hi Friends I have posted my VS code setting and plugins.
   "typescript.format.insertSpaceBeforeFunctionParenthesis": true,
   "typescript.format.placeOpenBraceOnNewLineForControlBlocks": false,
   "typescript.format.placeOpenBraceOnNewLineForFunctions": false,
-  "vetur.format.defaultFormatter.html": "js-beautify-html",
-  "vetur.format.defaultFormatter.js": "vscode-typescript"
+  "vetur.format.defaultFormatter.html": "prettier",
+  "vetur.format.defaultFormatter.js": "vscode-typescript",
+  "auto-close-tag.enableAutoCloseTag": true,
+  "php-cs-fixer.executablePath": "${extensionPath}/php-cs-fixer.phar",
+  "php-cs-fixer.lastDownload": 1626956328815,
+  "remote.SSH.configFile": "/c/Users/Windows/.ssh/config",
+  "cSpell.enableFiletypes": [
+    "vue"
+  ],
+  "vsicons.dontShowNewVersionMessage": true,
+  "[php]": {
+    "editor.defaultFormatter": "bmewburn.vscode-intelephense-client"
+  },
+  "window.zoomLevel": 1,
+  "terminal.integrated.profiles.windows": {
+    "Cmder": {
+      "path": "${env:windir}\\System32\\cmd.exe",
+      "args": ["/k", "C:\\laragon\\bin\\cmder\\vendor\\bin\\vscode_init.cmd"]
+    }
+  },
+  "terminal.integrated.defaultProfile.windows": "Cmder",
+  "[css]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode"
+  },
+  
 }
 
 ```
